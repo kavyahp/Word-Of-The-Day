@@ -1,6 +1,7 @@
 import Navbar from './components/layout/Navbar.jsx'
 import Footer from './components/layout/Footer.jsx'
 import WordCarousel from './components/word/WordCarousel.jsx'
+import WordLookup from './components/word/WordLookup.jsx'
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
             </div>
           </div>
         </section>
+
+        <WordLookup />
       </main>
 
       <Footer />
